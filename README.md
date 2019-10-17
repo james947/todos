@@ -3,6 +3,8 @@ Todos APP
  
 A simple todo app built with Vue Native
 
+![Imgur](https://i.imgur.com/gdnWkyI.png)
+
 
 Requirements
 ---
