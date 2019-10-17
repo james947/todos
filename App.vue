@@ -13,7 +13,7 @@
         <text class="todo-text done" v-if="todo.done">{{ todo.title }}</text>
         <text class="todo-text" v-else>{{ todo.title }}</text>
       </touchable-opacity>
-      <touchable-opacity class="remove-btn" :on-pres="() => removeTodo(todo.id)">
+      <touchable-opacity class="remove-btn" :on-press="() => removeTodo(todo.id)">
         <text class="remove-btn-text">Remove</text>
       </touchable-opacity>
     </view>
